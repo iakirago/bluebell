@@ -13,7 +13,7 @@ mysql:
   port: 13306
   user: root
   password: root1234
-  db: bluebell_pre
+  db: bluebell
   max_open_conns: 100
   max_idle_conns: 20
 
@@ -21,3 +21,4 @@ redis:
   host: 127.0.0.1
   port: 16379
   db: 0
+  password: 123456
